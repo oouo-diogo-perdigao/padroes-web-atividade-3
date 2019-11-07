@@ -13,3 +13,4 @@ Agora você deve projetar um site seu, que contenha pelo menos três páginas di
 Instruções ao professor:
 1. Executar `npm install`
 2. Abrir `/html/index.html`
+Projeto disponivel em: https://github.com/oouo/padroes-web-atividade-3
