@@ -1,0 +1,29 @@
+{
+  "name": "padroes-wev-atividade-3",
+  "version": "1.0.0",
+  "description": "Atividade final de padrões da web",
+  "main": "index.html",
+  "author": "Diogo Perdigão <diogopbritto@gmail.com>",
+  "license": "MIT",
+  "prettier": {
+    "printWidth": 120,
+    "tabWidth": 4,
+    "useTabs": true,
+    "singleQuote": true,
+    "jsxSingleQuote": true,
+    "jsxBracketSameLine": true,
+    "endOfLine": "lf"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-prettier": "^6.5.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "prettier": "^1.18.2"
+  }
+}

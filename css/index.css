@@ -1,0 +1,134 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  min-height: 100vh;
+  font-family: sans-serif;
+  color: #888;
+  line-height: 1.3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body > #l-header {
+  background-color: #031b4d;
+  padding: 0px 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #d5d5d5;
+}
+
+body > #l-header .app-title {
+  margin-top: 0px;
+  padding-top: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+body > #l-main {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  padding: 0px;
+}
+
+@media (min-width: 770px) {
+  body > #l-main {
+    padding: 0px 20px;
+  }
+}
+
+body > #l-main .main-feature {
+  display: inline-block;
+  width: calc(70vw - 20px);
+  min-width: 300px;
+}
+
+body > #l-main .secundary-feature {
+  display: inline-block;
+  float: right;
+  min-width: 200px;
+  width: calc(30vw - 20px);
+  height: 100%;
+}
+
+@media (max-width: 770px) {
+  body > #l-main .main-feature {
+    display: block;
+    width: 100%;
+  }
+  body > #l-main .secundary-feature {
+    display: block;
+    float: none;
+    width: 100%;
+  }
+}
+
+body > #l-footer {
+  text-align: center;
+  min-height: 50px;
+  height: auto;
+  background-color: #031b4d;
+  color: #d5d5d5;
+}
+
+body > #l-footer a {
+  color: #d5d5d5;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.l-main-menu {
+  padding: 0px;
+  margin: 0px;
+}
+
+.l-main-menu ul {
+  width: 100%;
+  margin: 0px;
+  clear: both;
+  padding: 0px;
+  height: 37px;
+}
+
+.l-main-menu li {
+  display: inline;
+}
+
+.l-main-menu a:hover {
+  border-bottom: 5px solid #094fe0;
+}
+
+.l-main-menu a {
+  color: #d5d5d5;
+  display: block;
+  float: left;
+  line-height: 2em;
+  padding: 0 15px;
+  text-decoration: none;
+}
+
+.l-main-menu .is-current a {
+  border-bottom: 5px solid #052c7e;
+  background-color: #052c7e;
+}
+
+#myCanvas {
+  padding-left: 0;
+  padding-right: 0;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+/*# sourceMappingURL=index.css.map */

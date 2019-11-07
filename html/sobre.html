@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+	<title>Projeto PADRÕES WEB - HTML, CSS, JAVASCRIPT Atividade 3 - Sobre</title>
+	<meta charset="utf-8">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="../img/favicon.ico" />
+
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="../css/normalize.css"/>
+    <link rel="stylesheet" href="../css/index.css"/>
+
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+    <script src="../js/plugins.js"></script>
+</head>
+<body>
+	<header id="l-header">
+		<h1 class="app-title">Sobre o Jogo</h1>
+		<nav class="l-main-menu" role="navigation">
+			<ul>
+				<li><a href="./index.html">Jogo</a></li>
+				<li class="is-current"><a href="./sobre.html">Sobre a IA</a></li>
+				<li><a href="./resources.html">Recursos Usados</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main id="l-main">
+		<section>
+			<h1>Construção da IA com Minimax poda Alfa-Beta</h1>
+			<article>
+				<h2>IA MiniMax</h2>
+				<p>
+					Em teoria da decisão, o minimax (ou minmax) é um método para minimizar a possível perda máxima. Pode ser considerado como a maximização do ganho mínimo (maximin).
+					Começa-se com dois jogadores 0-0 da teoria dos jogos, cobrindo ambos os casos em que os jogadores tomam caminhos alternados (por rodadas) ou simultaneamente.
+				</p>
+			</article>
+			<article>
+				<h2>Poda Alfa-Beta</h2>
+				<p>
+					A poda alfa-beta (ou poda α-β) é uma variação do algoritmo minimax que visa reduzir o número de nós que são avaliados na árvore de busca.
+					É uma busca adversarista comumente utilizada na implementação de jogadores automáticos em jogos com dois jogadores (Jogo da Velha, Xadrez, Go, etc.).
+					Ele para completamente de avaliar um movimento quando ele encontra, de maneira comprovada, um movimento cujo valor associado seja pior que um movimento previamente examinado.
+					Sendo assim, os movimentos posteriores não necessitam ser avaliados.
+				</p>
+				<p>
+					A poda alfa beta não altera o resultado da avaliação de uma sub-árvore e a sua vantagem está no fato de que, em árvores de busca com um fator de ramificação muito grande,
+					a utilização de memória será significativamente reduzida.
+				</p>
+			</article>
+		</section>
+		
+	</main>
+	<footer id="l-footer">
+		Jogo da velha com IA Media<br/>
+		Criado por <a href="https://github.com/oouo">Diogo Perdigão</a>
+	</footer>
+</body>
+</html>
